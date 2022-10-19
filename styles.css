@@ -1,0 +1,55 @@
+.info {
+    font-size: x-large;
+    text-align: center;
+    padding-top: 50px;
+}
+.studentName {
+    font-size: large;
+}
+.button {
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+}
+.button:hover {
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    background-color: white;
+    padding-top: 100px;
+
+}
+.item {
+    font-size: large;
+    margin-left: 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.navbar {
+    font-size: large;
+    margin-left: 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    grid-area: n;
+}
+.content {
+    grid-area: c;
+    border: 1px solid black;
+
+}
+.navbar_content {
+    width: 1200px;
+    display: grid;
+    grid-template-areas: 'n c';
+    grid-template-columns: 1fr 3fr;
+    
+}
+.navbar_item {
+    font-size: large;
+    margin: 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    border: 1px solid black;   
+}
